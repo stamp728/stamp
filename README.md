@@ -49,7 +49,7 @@ Full documentation: https://stamp728.xyz/docs. The conformance matrix, including
 Requires [Foundry](https://book.getfoundry.sh/) and Node 22+.
 
 ```bash
-git clone --recurse-submodules <this repo>
+git clone --recurse-submodules https://github.com/stamp728/stamp
 cd contracts
 forge test                                   # unit, fuzz, review regressions
 forge test --match-contract Fork --fork-url https://bsc-dataseed.bnbchain.org   # against the live ERC-8004 registry
