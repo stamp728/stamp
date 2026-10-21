@@ -1,0 +1,23 @@
+{
+  "chainId": 56,
+  "network": "eip155:56",
+  "address": "0x0ab009ab9120842e740b40a7e93ac3bdb46099cc",
+  "identityRegistry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+  "txHash": "0x5a8dfaa3155419cea8a41bd4c7aff2bcdb4abdada865125e904e642054d62664",
+  "block": "128951965",
+  "blockHash": "0x16f9e79d255bdcc655b7e2395b3208b53bcd58a2503cded7035d7e790ba823be",
+  "deployer": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "gasUsed": "2821958",
+  "codehash": "0x83a20ddba489505b0388f0054992803d63cc9e1aae55ccc84c7013743e301a07",
+  "compiler": "0.8.26+commit.8a97fa7a",
+  "compilerSettingsDigest": "0xb96011b428f172617f02de5c2950ed51468fb9ca6724d5ebce4dafab8c2698d9",
+  "checkpoint": {
+    "chainId": 56,
+    "blockNumber": "128951965",
+    "blockHash": "0x16f9e79d255bdcc655b7e2395b3208b53bcd58a2503cded7035d7e790ba823be",
+    "transactionHash": "0x5a8dfaa3155419cea8a41bd4c7aff2bcdb4abdada865125e904e642054d62664",
+    "receiptStatus": 1,
+    "finality": "anvil-local, not finality evidence"
+  },
+  "deployedAt": "2026-10-21T14:12:48.730Z"
+}

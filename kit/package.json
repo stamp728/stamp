@@ -1,0 +1,14 @@
+{
+  "name": "stamp-alp-kit",
+  "private": true,
+  "type": "module",
+  "description": "Reference ALP-DISC agent server + client verifier for the Stamp BSC binding (BAP-728)",
+  "scripts": {
+    "start": "node server.mjs",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "canonicalize": "^5.1.0",
+    "viem": "^2.57.7"
+  }
+}

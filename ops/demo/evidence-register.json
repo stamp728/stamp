@@ -1,0 +1,19 @@
+{
+  "record": "stamp-evidence",
+  "version": "0.4-draft",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378515"
+  },
+  "operation_id": "stamp:register:378515:1792593736053:45d163da7e01",
+  "from": "PROVISIONED",
+  "to": "REGISTERED",
+  "note": "Identity registered, dedicated wallet bound by EIP-712 proof and read back, zero-spend policy approved by owner, descriptor advertised in the registration file.",
+  "links": [
+    "0xf870b0febcc3cfa1e2e04650e6c2cbd146d292bb77ae21d395e62c8643c98b77",
+    "0x3f555b54ed340b011432fa8ef38d6a8ff831512fe4e08ed5ba1eaad5169dd141"
+  ],
+  "actor": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "created_at": 1792593736,
+  "salt": "0x2fa9fda63ab1fc174387c9a3e856068074e49335d5743b69957f4fc8503a8114"
+}

@@ -1,0 +1,16 @@
+{
+  "record": "stamp-evidence",
+  "version": "0.4-draft",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378293"
+  },
+  "operation_id": "stamp:activate:378293:1792591841368:0ab7f9d7c66b",
+  "from": "REGISTERED",
+  "to": "ACTIVE",
+  "note": "LOCAL FORK EXERCISE ONLY — no self-funding payment was made.",
+  "links": [],
+  "actor": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+  "created_at": 1792591841,
+  "salt": "0x7ef105c976335a84b94bd6a37934d222a70b0c34d49ee3b9c8f22d0483cf20e7"
+}

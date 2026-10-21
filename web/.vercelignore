@@ -1,0 +1,6 @@
+.env*
+*.key
+*secret*
+.secrets
+node_modules
+.next

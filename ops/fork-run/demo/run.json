@@ -1,0 +1,80 @@
+{
+  "chainId": 56,
+  "lifecycleRegistry": "0x0AB009ab9120842E740B40a7e93ac3BDb46099CC",
+  "identityRegistry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+  "owner": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "agentWallet": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+  "controller": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+  "steps": [
+    {
+      "label": "erc8004.register",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "523272",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128949944",
+        "blockHash": "0x39f836ad0faf6dcba6b264974d6e9a2cb886714337a66ed6f4968f656748ca54",
+        "transactionHash": "0xff36f6bf6f6ea00b4d563087554f7967ceb449f37556fe805f45d175cd439f8b",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    },
+    {
+      "label": "erc8004.setAgentWallet",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "50440",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128949945",
+        "blockHash": "0xa1641752e946e2a077a2cb424dca926e98101f3222ee31070d1b6110744cd8e1",
+        "transactionHash": "0x766767691cecc4c3c27c2d0363a13b89d83c547d7cf9b6380f9e4011388b884b",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    },
+    {
+      "label": "lifecycle.register",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "244108",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128949946",
+        "blockHash": "0xc91dfe3f2c1673bacd9f59ac0c1f6e4e78092c56633309a5fdd6110919dc7385",
+        "transactionHash": "0x57606ef883de97eaa85428ab0b0ce7b9fe62fc3bdc5788d052ba23579101a02c",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    },
+    {
+      "label": "lifecycle.transition ACTIVE",
+      "from": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+      "gasUsed": "112696",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128949947",
+        "blockHash": "0x91a87567439ea781ba8d3e28bfe9ac5d20764fb232c3e3e6cb57213805a61024",
+        "transactionHash": "0xd1fed56f4284261d610d02980dd301c7e42e83fcfc7f344de67f22c43f0a9cd2",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    }
+  ],
+  "agentId": "378171",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378171"
+  },
+  "walletReadBack": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+  "policyDigest": "0x9afc7090adf1e8f448442ca18d79cec03bc7b927e450b45de8e15249cd602b30",
+  "registerOperationId": "stamp:register:378171:1792591061608:fd8607d40887",
+  "final": {
+    "state": "ACTIVE",
+    "sequence": "2",
+    "authorityEpoch": "1",
+    "controller": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+    "walletSnapshot": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+    "ownerSnapshot": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+    "policyDigest": "0x9afc7090adf1e8f448442ca18d79cec03bc7b927e450b45de8e15249cd602b30"
+  },
+  "totalGas": "930516"
+}

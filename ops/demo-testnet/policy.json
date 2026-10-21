@@ -1,0 +1,36 @@
+{
+  "record": "policy",
+  "version": "0.4-draft",
+  "identity": {
+    "agentRegistry": "eip155:97:0x8004a818bfb912233c491871b3d84c89a494bd9e",
+    "agentId": "2650"
+  },
+  "owner": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "policy_version": "1",
+  "assets": [
+    {
+      "network": "eip155:97",
+      "asset": "0x55d398326f99059fF775485246999027B3197955",
+      "decimals": 18,
+      "resource": "none",
+      "resource_unit": "none",
+      "balance_threshold": "0",
+      "refill_amount": "0",
+      "daily_spend_cap": "0",
+      "balance_floor": "0",
+      "provider_allowlist": [
+        {
+          "origin": "https://stamp-testnet.vercel.app",
+          "beneficiary": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+          "contract": "0x55d398326f99059fF775485246999027B3197955",
+          "selectors": [
+            "0xa9059cbb"
+          ],
+          "max_charge": "0",
+          "quote_ttl_seconds": 60
+        }
+      ]
+    }
+  ],
+  "owner_approval": "0x4741b32449ea0dbac7e7b7ebfe5de15cd93b95016f7226928645eae57144dec401b926a6c589b52aaa82fc3457172ad2f865a8e6e8384b0aa7fe2c60595d944c1b"
+}

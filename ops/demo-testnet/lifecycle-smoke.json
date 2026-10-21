@@ -1,0 +1,66 @@
+{
+  "chainId": 97,
+  "lifecycle": "0x0ab009ab9120842e740b40a7e93ac3bdb46099cc",
+  "agentId": "2653",
+  "steps": [
+    {
+      "label": "erc8004.register",
+      "hash": "0x72512b4b38fbf5ac1d793ceb05487c25e7b9a885dfcb4c40f0197806bec01dc2",
+      "block": "138095456"
+    },
+    {
+      "label": "erc8004.setAgentWallet",
+      "hash": "0x98902f60512edfc64a374b8041a58252b4012a16e143e31c92427362333867ba",
+      "block": "138095459"
+    },
+    {
+      "label": "register",
+      "hash": "0xa497a7f08606262b7a11500a0f8ac2802908e4acbb858381bb8b058456f1bc12",
+      "block": "138095461"
+    },
+    {
+      "label": "activate (ctl)",
+      "hash": "0xfb7f132b264291139aae7c1bdb1c1c7a710bfe23dd0c4bfab6428fa908390dfe",
+      "block": "138095465"
+    },
+    {
+      "label": "stale sequence",
+      "refused": "The contract function \"transition\" reverted."
+    },
+    {
+      "label": "owner activate",
+      "refused": "The contract function \"transition\" reverted."
+    },
+    {
+      "label": "policy swap",
+      "refused": "The contract function \"transition\" reverted."
+    },
+    {
+      "label": "suspend (ctl)",
+      "hash": "0x6020503b89026645d2bf8a2a4fd774614232a8b27636e7350d09ab68e755ab14",
+      "block": "138095469"
+    },
+    {
+      "label": "resume (ctl)",
+      "hash": "0xf9c87b5e1eddad959bb35a9cb88d000a06aa303a335066851201d9f759ee40d4",
+      "block": "138095480"
+    },
+    {
+      "label": "retire (owner)",
+      "hash": "0x731055ad933b90bf062d549e1fe43f05200465dd0c7208da608a084103e3c8f9",
+      "block": "138095483"
+    },
+    {
+      "label": "revive ACTIVE",
+      "refused": "The contract function \"transition\" reverted."
+    },
+    {
+      "label": "rebind retired",
+      "refused": "The contract function \"rebind\" reverted."
+    },
+    {
+      "label": "re-register",
+      "refused": "The contract function \"register\" reverted."
+    }
+  ]
+}

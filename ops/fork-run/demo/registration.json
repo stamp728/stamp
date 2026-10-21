@@ -1,0 +1,14 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Stamp Showcase Agent",
+  "description": "Reference agent for the Stamp lifecycle registry (BAP-728 / ALP v0.4-draft) on BNB Smart Chain. Holds no spending authority.",
+  "image": "",
+  "services": [
+    {
+      "name": "ALP",
+      "endpoint": "http://localhost:8787/.well-known/alp.json",
+      "version": "0.4-draft"
+    }
+  ],
+  "registrations": []
+}

@@ -1,0 +1,36 @@
+{
+  "record": "policy",
+  "version": "0.4-draft",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378171"
+  },
+  "owner": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "policy_version": "1",
+  "assets": [
+    {
+      "network": "eip155:56",
+      "asset": "0x55d398326f99059fF775485246999027B3197955",
+      "decimals": 18,
+      "resource": "none",
+      "resource_unit": "none",
+      "balance_threshold": "0",
+      "refill_amount": "0",
+      "daily_spend_cap": "0",
+      "balance_floor": "0",
+      "provider_allowlist": [
+        {
+          "origin": "http://localhost:8787",
+          "beneficiary": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+          "contract": "0x55d398326f99059fF775485246999027B3197955",
+          "selectors": [
+            "0xa9059cbb"
+          ],
+          "max_charge": "0",
+          "quote_ttl_seconds": 60
+        }
+      ]
+    }
+  ],
+  "owner_approval": "0x07597ab76edc747b6e827535fa9c5123514051ef6f7a5a0164b5fcc7d2ade52b1452f2dfcbb5507ec19b6ed4739f229eecef2fd989f7fab1bc5a76257d9819471c"
+}

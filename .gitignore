@@ -1,0 +1,13 @@
+node_modules/
+.secrets/
+*.key
+*.pem
+.env*
+!.env.example
+contracts/out/
+contracts/cache/
+web/.next/
+web/.vercel/
+web/.vercel-testnet/
+*.tsbuildinfo
+.DS_Store

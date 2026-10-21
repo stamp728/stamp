@@ -1,0 +1,24 @@
+{
+  "chainId": 97,
+  "network": "eip155:97",
+  "address": "0x0ab009ab9120842e740b40a7e93ac3bdb46099cc",
+  "identityRegistry": "0x8004A818BFB912233c491871b3d84c89A494BD9e",
+  "txHash": "0xc188d69a6215e32953ee4ebe1ed90942be567985aaebcfa8e3a31648da3fb785",
+  "block": "138093884",
+  "blockHash": "0x4c2c8cb1bd475307e8692d32e9d56be075dbdc6cfb46f8fcf1bad0fcd312032c",
+  "deployer": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "gasUsed": "2821958",
+  "codehash": "0x90c35e5b102a4acaaeacdd75689a78ac2dedb1946e97d2a36a828e6692469ee7",
+  "compiler": "0.8.26+commit.8a97fa7a",
+  "compilerSettingsDigest": "0xb96011b428f172617f02de5c2950ed51468fb9ca6724d5ebce4dafab8c2698d9",
+  "checkpoint": {
+    "chainId": 97,
+    "blockNumber": "138093884",
+    "blockHash": "0x4c2c8cb1bd475307e8692d32e9d56be075dbdc6cfb46f8fcf1bad0fcd312032c",
+    "transactionHash": "0xc188d69a6215e32953ee4ebe1ed90942be567985aaebcfa8e3a31648da3fb785",
+    "receiptStatus": 1,
+    "finality": "bsc-fast-finality",
+    "finalizedHead": "138093884"
+  },
+  "deployedAt": "2026-10-21T14:28:20.831Z"
+}

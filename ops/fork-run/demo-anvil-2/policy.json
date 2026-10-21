@@ -1,0 +1,36 @@
+{
+  "record": "policy",
+  "version": "0.4-draft",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378317"
+  },
+  "owner": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "policy_version": "1",
+  "assets": [
+    {
+      "network": "eip155:56",
+      "asset": "0x55d398326f99059fF775485246999027B3197955",
+      "decimals": 18,
+      "resource": "none",
+      "resource_unit": "none",
+      "balance_threshold": "0",
+      "refill_amount": "0",
+      "daily_spend_cap": "0",
+      "balance_floor": "0",
+      "provider_allowlist": [
+        {
+          "origin": "https://stamp-preview.example",
+          "beneficiary": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+          "contract": "0x55d398326f99059fF775485246999027B3197955",
+          "selectors": [
+            "0xa9059cbb"
+          ],
+          "max_charge": "0",
+          "quote_ttl_seconds": 60
+        }
+      ]
+    }
+  ],
+  "owner_approval": "0xc119ce21cf462d6849e70a3d76cdbe65989a4f8ad17332c01f4149ae9b56efc916b06e22f12ef924e8b41be5e0dd223bcbca2766fa63f4f1e2b7a1dfd87a471d1c"
+}

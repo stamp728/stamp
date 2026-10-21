@@ -1,0 +1,67 @@
+{
+  "chainId": 56,
+  "lifecycleRegistry": "0x0AB009ab9120842E740B40a7e93ac3BDb46099CC",
+  "identityRegistry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+  "owner": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+  "agentWallet": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+  "controller": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+  "steps": [
+    {
+      "label": "erc8004.register",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "523368",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128951969",
+        "blockHash": "0xf7d9989ca788736dbf6962c8b5e68ad80c73d82860dbe569905e8c8fa089a6b7",
+        "transactionHash": "0x701b84f822f889f01f0ea771e65b5396b79a55755032b00e307daac86edaaa74",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    },
+    {
+      "label": "erc8004.setAgentWallet",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "50428",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128951970",
+        "blockHash": "0x922113164ddf16ad912139465a6978ced66c9387163ec9f111ec72eb2fe59385",
+        "transactionHash": "0x79ade502f508501a76ab6bb6ec95684c4ce7a14ee7b791a6d6bd14370d3a4ca6",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    },
+    {
+      "label": "lifecycle.register",
+      "from": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+      "gasUsed": "244108",
+      "checkpoint": {
+        "chainId": 56,
+        "blockNumber": "128951971",
+        "blockHash": "0x7cb2a97d07cec384ce03f77db9a3ac888521f8e9ba3e2cb4cdd950b0043c77eb",
+        "transactionHash": "0x84a8507c48508234a97a9048853b92069cd644090ca6a29aa6e738e588006719",
+        "receiptStatus": 1,
+        "finality": "anvil-local, not finality evidence"
+      }
+    }
+  ],
+  "agentId": "378317",
+  "identity": {
+    "agentRegistry": "eip155:56:0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "agentId": "378317"
+  },
+  "walletReadBack": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+  "policyDigest": "0x807e66fc65e18a92cdd76b8b9f2c97e59b5f77822e19cac2644521530171445d",
+  "registerOperationId": "stamp:register:378317:1792591975487:c46a265ff944",
+  "final": {
+    "state": "REGISTERED",
+    "sequence": "1",
+    "authorityEpoch": "0",
+    "controller": "0xDcACB89E4C287c77b5346096c9ac6BfcFcEABaeF",
+    "walletSnapshot": "0xa3501d552aFB3f95542AFaDEb132fDa2f6B9A3E7",
+    "ownerSnapshot": "0x6658C9d559FEADcc38B2F7FcB07Fe4D3238C8Ad6",
+    "policyDigest": "0x807e66fc65e18a92cdd76b8b9f2c97e59b5f77822e19cac2644521530171445d"
+  },
+  "totalGas": "817904"
+}

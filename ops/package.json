@@ -1,0 +1,9 @@
+{
+  "name": "agent-stamp-ops",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "canonicalize": "^5.1.0",
+    "viem": "^2.57.7"
+  }
+}

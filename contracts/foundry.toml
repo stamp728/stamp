@@ -1,0 +1,22 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.26"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 10000
+via_ir = true
+bytecode_hash = "ipfs"
+cbor_metadata = true
+remappings = [
+  "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+  "forge-std/=lib/forge-std/src/",
+]
+
+[rpc_endpoints]
+bsc = "https://bsc-dataseed.bnbchain.org"
+bsc_testnet = "https://bsc-testnet-dataseed.bnbchain.org"
+
+[fuzz]
+runs = 512
